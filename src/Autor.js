@@ -114,15 +114,15 @@ componentDidMount(){
 }
   render(){
     return(
-      <div id="main">
-            <div className="header">
-              <h1>Cadastro de Autores</h1>
+            <div>
+              <div className="header">
+                <h1>Lista de Autores</h1>
+              </div>
+              <div className="content" id="content">
+                <FormularioAutor callbackAtualizaListagem={this.atualizaListagem}/>
+                <TabelaAutores lista={this.state.lista}/>
+              </div>
             </div>
-            <div className="content" id="content">
-              <FormularioAutor callbackAtualizaListagem={this.atualizaListagem}/>
-              <TabelaAutores lista={this.state.lista}/>   
-            </div>
-          </div>
         
       
     );
