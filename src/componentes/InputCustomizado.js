@@ -10,7 +10,7 @@ export default class InputCustomizado extends Component{
         return (
             <div className="pure-control-group">
                 <label htmlFor={this.props.id}>{this.props.label}</label>
-                <input type={this.props.type} id={this.props.id} name={this.props.name} value={this.props.value} onChange={this.props.onChange} />
+                <input {...this.props} />
                 <span className="error">{this.state.msgErro}</span>
             </div>
             
