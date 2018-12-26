@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 import AutorBox from './Autor';
 import Home from './Home';
 import LivrosBox from './Livro';
+import ImgDropzone from './ImgDropzone';
 
 ReactDOM.render(
     (<Router>
@@ -16,6 +17,7 @@ ReactDOM.render(
                 <Route exact path="/" component={Home}/>
                 <Route path="/autor" component={AutorBox}/>
                 <Route  path="/livro" component={LivrosBox}/>
+                <Route  path="/dropzone" component={ImgDropzone}/>
             </Switch>
         </App>
     </Router>),
