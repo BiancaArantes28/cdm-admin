@@ -8,6 +8,7 @@ import AutorBox from './Autor';
 import Home from './Home';
 import LivrosBox from './Livro';
 import ImgDropzone from './ImgDropzone';
+import Cropp from './Cropp';
 
 ReactDOM.render(
     (<Router>
@@ -18,6 +19,7 @@ ReactDOM.render(
                 <Route path="/autor" component={AutorBox}/>
                 <Route  path="/livro" component={LivrosBox}/>
                 <Route  path="/dropzone" component={ImgDropzone}/>
+                <Route  path="/cropper" component={Cropp}/>
             </Switch>
         </App>
     </Router>),

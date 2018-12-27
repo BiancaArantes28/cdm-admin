@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cropperjs": "^1.4.3",
     "history": "^4.7.2",
     "jquery": "^3.3.1",
     "pubsub-js": "^1.7.0",
     "react": "^16.6.1",
+    "react-cropper": "^1.0.1",
     "react-dom": "^16.6.1",
     "react-dropzone": "^4.2.12",
     "react-image-crop": "^4.0.1",
